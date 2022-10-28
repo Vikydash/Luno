@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+/* background-color: rgb(7,18,120); */
+font-family: 'Fracktif', Helvetica Neue, Arial, sans-serif;
+
+}
+
+.logo{
+    margin-left: 10px;
+    display: flex;
+}
+.logo p{
+     font-family: 'Fracktif', Helvetica Neue, Arial, sans-serif;
+     color: white;
+     font-size: 20px;
+     margin-top: 15px;
+}
+
+.navbarr{
+    display: flex;
+    background-color: rgb(7,18,120);
+    width: 100%;
+    height: 8vh;
+}
+
+.menuu{
+    display: flex;
+    margin-left: 73em;
+    margin-top: 20px;
+}
+
+li{
+   list-style-type: none;
+}
+
+.aa{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fracktif', Helvetica Neue, Arial, sans-serif;
+    padding: 20px;
+}
+
+.menuu .com{
+    background-color:rgb(5, 132, 243) !important;
+    border-radius: 20px !important;
+    border: rgb(5, 132, 243) !important;
+    width: 8em !important;
+    height: 5vh !important;
+    padding: 10px !important;
+    color: white !important;
+    margin-left: 20px !important;
+    margin-top: -9px !important;
+    
+}
+
+
+.hand{
+    width: 60%;
+    height: 70vh;
+    margin-left: 24em;
+    border-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+    background-color: rgb(215,236,255);
+}
+
+.hand img{
+    margin-left: 35em;
+    margin-top: 11em;
+     width: 50%;
+     height: 50vh;
+       
+}
+
+
+.write-up{
+    font-family: 'san-serif' Fracktif;
+    font-size: 60px;
+    /* font-weight: bold; */
+    color: rgb(10,21,122);
+    position: absolute;
+    top: 3em;
+    left: 48px;
+}
+.pass{
+    font-size: 24px;
+    position: absolute;
+    top: 14.3em;
+    left: 48px;
+    color: rgb(10,21,122);
+    letter-spacing: 1.2px;
+}
+.btn{
+    width: 9%;
+    height: 5vh;
+    position: absolute;
+    top: 29em;
+    left: 48px;
+}
+
+.card{
+    margin-top: 10em !important;
+
+}
+
+.mg1{
+    max-width: 100% !important;
+    width: 10px !important; 
+}
+
+.mg2{
+    max-width: 100% !important;
+    width: 10px !important;
+}
+.mg3{
+    max-width: 100% !important;
+    width: 10px !important;
+}
+.mg4{
+    max-width: 100% !important;
+    width: 10px !important;
+}
+
+/* sign up form1 */
+.from{
+    margin-left: 40em;
+    margin-top: 5em;
+}
+.lbl{
+    /* width: 30%; */
+}
+#fname{
+    width: 50%;
+    border-radius: 15px;
+    border: none;    
+    height: 5vh;
+}
+
+#lname{
+    width: 50%;
+    border-radius: 15px;
+    border: none;    
+    height: 5vh;
+    
+}
+
+#email{
+    width: 50%;
+    border-radius: 15px;
+    border: none;    
+    height: 5vh;
+    
+}
+
+#pass{
+    width: 50%;
+    border-radius: 15px;
+    border: none;    
+    height: 5vh;
+    
+}
+
+#date{
+    width: 50%;
+    border-radius: 15px;
+    border: none;    
+    height: 5vh;
+    
+}
+
+#btn{
+    background-color: rgb(38,57,242);
+    color: white;
+    font-family: Fracktif;
+    width:15%;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    margin-left: 13em;
+}
